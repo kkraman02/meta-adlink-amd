@@ -11,6 +11,7 @@ You can follow the same steps to build your own customized BSP based on your int
 # 2. Available Branches
 
 1. [Kirkstone](https://github.com/ADLINK/meta-adlink-amd/tree/kirkstone)
+1. [Scarthgap](https://github.com/ADLINK/meta-adlink-amd/tree/scarthgap)
 
 
 # 3. Adlink Supported Configuration/Patches
