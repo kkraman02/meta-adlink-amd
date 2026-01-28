@@ -1,0 +1,44 @@
+
+# CONF_VERSION is increased each time build/conf/ changes incompatibly and is used to
+# track the version of this file when it was generated. This can safely be ignored if
+# this doesn't mean anything to you.
+CONF_VERSION = "2"
+
+
+MACHINE ??= "v3000"
+LICENSE_FLAGS_ACCEPTED += "commercial"
+USER_CLASSES ?= "buildstats "
+DL_DIR ?= "${TOPDIR}/downloads"
+DISTRO ?= "poky-amd"
+PACKAGE_CLASSES ?= "package_rpm"
+EXTRA_IMAGE_FEATURES ?= "debug-tweaks tools-testapps tools-sdk "
+
+# By default disable interactive patch resolution (tasks will just fail instead):
+PATCHRESOLVE = "noop"
+
+# CONF_VERSION is increased each time build/conf/ changes incompatibly and is used to
+# track the version of this file when it was generated. This can safely be ignored if
+# this doesn't mean anything to you.
+CONF_VERSION = "2"
+
+IMAGE_INSTALL:append = " i2c-tools glmark2 semaec4.0 ethtool libgpiod  alsa-utils "
+
+DISTRO_FEATURES:append = " tpm security"
+
+IMAGE_INSTALL:append = " tpm2-tools tpm2-tss tpm2-abrmd"
+IMAGE_INSTALL:append = " tpm-tools "
+
+IMAGE_INSTALL:append = " pulseaudio pulseaudio-server alsa-plugins pipewire wireplumber "
+
+IMAGE_INSTALL:append = " alsa-ucm-conf "
+
+
+PACKAGECONFIG:append:pn-mesa = " gallium r600"
+ 
+PACKAGECONFIG:append:pn-libdrm = " radeon"
+ 
+DISTRO_FEATURES:append = " opengl"
+ 
+IMAGE_INSTALL:append = " mesa libdrm"
+ 
+IMAGE_INSTALL:append = " matchbox-wm matchbox-desktop"

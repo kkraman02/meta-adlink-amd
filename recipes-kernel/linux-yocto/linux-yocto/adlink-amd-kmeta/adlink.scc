@@ -1,0 +1,8 @@
+kconf hardware bsp/usb.cfg
+kconf hardware bsp/ethernet.cfg
+kconf hardware bsp/blockdevice.cfg
+kconf hardware bsp/module-compress.cfg
+kconf hardware bsp/external-gpus.cfg
+kconf hardware bsp/dev.cfg
+kconf hardware bsp/mfd.cfg
+kconf hardware bsp/tpm.cfg
