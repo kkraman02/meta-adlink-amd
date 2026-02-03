@@ -5,9 +5,8 @@
 - Released year: 2026
 - Kernel support by Adlink(continuing).
 - Manifest of the Yocto BSP is [here](https://github.com/ADLINK/adlink-manifest/tree/amd-yocto-Scarthgap).
-### Scarthgap Branch 
 
-
+## 1. Supported Recipes by Adlink
 | **meta name**     | **Branch** | **commit version**                       |
 | :---------------- | :--------- | :--------------------------------------- |
 | Poky              | Scarthgap  | 72983ac391008ebceb45edc7a8f0f6d5f4fe715c |
@@ -18,14 +17,14 @@
 | meta-adlink-sema  | Scarthgap  | 264e8022b2f13c91399a70a6a77cb97f19de731f |
 | meta-security     | Scarthgap  | afbbe28cee4af2c6760aaead43a4a3ef29969809 |
 
-<br>
+## 2. Supported Modules 
 
-### How to build Yocto Image
-* see [the documentation](https://github.com/ADLINK/meta-adlink-amd/wiki) for the more details
+| **Module Name**                                              |
+| :----------------------------------------------------------- |
+| **Express-VR7([More Details](https://www.adlinktech.com/products/computer_on_modules/comexpresstype7/express-vr7?lang=en))<BR>** |
 
-<br>
-
-
+## 3. Documentation
+Refer to the [wiki](https://github.com/ADLINK/meta-adlink-amd/wiki) page for instructions on building the Yocto as well as flashing the image.
 
 <br> 
 
