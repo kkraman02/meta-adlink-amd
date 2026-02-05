@@ -24,9 +24,10 @@
 | **Express-VR7([More Details](https://www.adlinktech.com/products/computer_on_modules/comexpresstype7/express-vr7?lang=en))<BR>** |
 
 ## 3. Documentation
+
 Refer to the [wiki](https://github.com/ADLINK/meta-adlink-amd/wiki) page for instructions on building the Yocto as well as flashing the image.
 
-<br> 
-
-
-
+> [!NOTE]
+>
+> This Yocto meta-layer licensed under the MIT License.
+> Individual recipes build software under their respective licenses.
